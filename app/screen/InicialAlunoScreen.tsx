@@ -23,7 +23,7 @@ export default function InicialAlunoScreen() {
       <View style={styles.buttonsContainer}>
         <View style={styles.column}>
           <ButtonTelaInicial
-            onPress={() => {}}
+            onPress={() => {router.push('/screen/deunciaScreen');}}
             iconName="megaphone"
             title="Denunciar"
             subtitle="Formulário anônimo com opção de anexar provas"
@@ -65,7 +65,7 @@ export default function InicialAlunoScreen() {
             containerStyle = {styles.buttonFuncionalidade}
           />
           <ButtonTelaInicial
-            onPress={() => {}}
+            onPress={() => {router.push('/screen/ChatScreen');}}
             iconName="notifications"
             title="Notificações"
             subtitle="Push com atualizações e mensagens da equipe"
@@ -90,7 +90,7 @@ export default function InicialAlunoScreen() {
 const styles = StyleSheet.create({
   titleContainer: {
     position: 'absolute',
-    top: height * 0.4,
+    top: height * 0.32,
     width: '100%',
     alignItems: 'center',
   },
@@ -104,13 +104,13 @@ const styles = StyleSheet.create({
   image: {
     width: '50%',
     position: 'relative',
-    top: height * -0.25,
+    top: height * -0.35,
     alignSelf: 'center',
   },
   buttonsContainer: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-    marginTop: height *-0.45,
+    marginTop: height *-0.6,
   },
   buttonFuncionalidade :{
     height: height *0.13
@@ -121,11 +121,11 @@ const styles = StyleSheet.create({
   },
   bottomButtonContainer: {
     position: 'absolute',
-    bottom: 60,
+    bottom: 40,
     width: '100%',
     alignItems: 'center',
   },
-  wideButton: {
+  wideButton: { 
     width: '80%',
   },
 });
