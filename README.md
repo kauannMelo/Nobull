@@ -16,6 +16,18 @@ O **NOBULL** é um aplicativo voltado para a prevenção e denúncia de bullying
 
 Neste repositório está somente um protótipo do aplicativo, contendo, por enquanto, apenas o front-end de algumas telas - como a de login, cadastro, menu e chat.
 
+### telas desemvolvidas
+![telaCarregamento](https://github.com/user-attachments/assets/94a44aa0-38dd-4ef5-9958-f319ae199f1c)
+![tela de entrada](https://github.com/user-attachments/assets/4f0bb446-64f2-4c2d-84a9-438c95f02283)
+![tela de login](https://github.com/user-attachments/assets/fe5944fd-8fdb-4e69-8066-d48ffa7bb969)
+![tela de cadastro](https://github.com/user-attachments/assets/a0949790-157c-419a-814e-668adc9f47e1)
+![tela inicial](https://github.com/user-attachments/assets/a09e7b5c-10f0-40cd-bb3b-2f68760e0233)
+![tela de denuncia](https://github.com/user-attachments/assets/d271bf1c-4b79-4042-b570-5306e624a62d)
+
+
+
+
+
 ### 🎯 Objetivos
 - **Geral**: Proporcionar um ambiente escolar mais seguro e acolhedor, com foco no combate ao bullying.
 - **Específicos**:
